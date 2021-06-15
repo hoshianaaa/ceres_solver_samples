@@ -1,8 +1,15 @@
 # ceres_solver_samples
+
+## 環境
+
+```
+ROS melodic
+```
+
 ## Install
 
 ```
-
+sudo apt install libceres-dev
 ```
 ## 参考
 ```

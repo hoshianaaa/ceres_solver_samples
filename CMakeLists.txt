@@ -20,3 +20,8 @@ target_link_libraries(intro1
  ${CERES_LIBRARIES}
 )
 
+add_executable(intro2 src/intro2.cpp)
+target_link_libraries(intro2
+ ${CERES_LIBRARIES}
+)
+

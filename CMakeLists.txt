@@ -35,3 +35,31 @@ target_link_libraries(matplotlib_sample
   Python3::NumPy
 )
 
+add_executable(ceres_original_example src/ceres_original_example.cpp)
+target_link_libraries(ceres_original_example
+ ${CERES_LIBRARIES}
+  Python3::Python 
+  Python3::NumPy
+)
+
+add_executable(curve_fitting1 src/curve_fitting1.cpp)
+target_link_libraries(curve_fitting1
+ ${CERES_LIBRARIES}
+  Python3::Python 
+  Python3::NumPy
+)
+
+add_executable(curve_fitting2 src/curve_fitting2.cpp)
+target_link_libraries(curve_fitting2
+ ${CERES_LIBRARIES}
+  Python3::Python 
+  Python3::NumPy
+)
+
+add_executable(curve_fitting3 src/curve_fitting3.cpp)
+target_link_libraries(curve_fitting3
+ ${CERES_LIBRARIES}
+  Python3::Python 
+  Python3::NumPy
+)
+

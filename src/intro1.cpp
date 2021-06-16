@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 {
   google::InitGoogleLogging(argv[0]);
 
-  double x = 0.5;
+  double x = -1000;
   const double initial_x = x;
 
   // Build the problem.
